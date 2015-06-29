@@ -1,0 +1,17 @@
+@keyframes spin {
+	0% { transform: rotateY(0deg); }
+	25% { transform: rotateY(90deg); }
+	50% { transform: rotateY(180deg); }
+	75% { transform: rotateY(270deg); }
+	100% { transform: rotateY(360deg); }
+}
+
+.mobile {
+	background-image: url("../images/mobile.jpg");
+	height: 146px;
+	width: 170px;
+	animation-name: spin;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
