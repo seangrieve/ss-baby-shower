@@ -1,6 +1,6 @@
 @keyframes slide {
 	from { transform: translateX(0); }
-	to { transform: translateX(340px); }
+	to { transform: translateX(330px); }
 }
 
 #mobile {
@@ -14,21 +14,23 @@
     width: 10px;
     position: relative;
     margin-left: 100px;
-    height: 50px;
+    height: 75px;
     margin: 0 auto;
+    border-radius: 3px;
 }
 
 #mobile-bar {
     background: #00ff66;
     width: 390px;
-    height: 10px;
+    height: 20px;
     position: relative;
     margin: 0 auto;
+    border-radius: 3px;
 }
 
 .mobile-string {
     background: #00ff66;
-    width: 10px;
+    width: 5px;
     position: relative;
     display: inline;
     float: left;
