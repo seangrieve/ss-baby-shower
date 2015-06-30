@@ -1,41 +1,6 @@
-@keyframes slide1 {
+@keyframes slide {
 	from { transform: translateX(0); }
-	to { transform: translateX(770px); }
-}
-
-@keyframes slide2 {
-	from { transform: translateX(0); }
-	to { transform: translateX(660px); }
-}
-
-@keyframes slide3 {
-	from { transform: translateX(0); }
-	to { transform: translateX(550px); }
-}
-
-@keyframes slide4 {
-	from { transform: translateX(0); }
-	to { transform: translateX(440px); }
-}
-
-@keyframes slide5 {
-	from { transform: translateX(0px); }
-	to { transform: translateX(-440px); }
-}
-
-@keyframes slide6 {
-	from { transform: translateX(0); }
-	to { transform: translateX(-550px); }
-}
-
-@keyframes slide7 {
-	from { transform: translateX(0); }
-	to { transform: translateX(-660px); }
-}
-
-@keyframes slide8 {
-	from { transform: translateX(0); }
-	to { transform: translateX(-770px); }
+	to { transform: translateX(340px); }
 }
 
 #mobile {
@@ -55,7 +20,7 @@
 
 #mobile-bar {
     background: #00ff66;
-    width: 780px;
+    width: 390px;
     height: 10px;
     position: relative;
     margin: 0 auto;
@@ -66,7 +31,6 @@
     width: 10px;
     position: relative;
     display: inline;
-    margin-left: 100px;
     float: left;
     height: 50px;
 }
@@ -74,44 +38,44 @@
 .string1 {
 	height: 50px;
 	margin-left: 0;
-	animation: slide1 12s 0s linear infinite;
+	animation: slide 4s 0s linear infinite;
 	animation-direction: alternate;
 }
 
 .string2 {
 	height: 65px;
-	animation: slide2 11s 0s linear infinite;
+	animation: slide 4s 1s linear infinite;
 	animation-direction: alternate;
 }
 
 .string3 {
 	height: 65px;
-	animation: slide3 10s 0s linear infinite;
+	animation: slide 4s 2s linear infinite;
 	animation-direction: alternate;
 }
 
 .string4 {
 	height: 75px;
-	animation: slide4 9s 0s linear infinite;
+	animation: slide 4s 3s linear infinite;
 	animation-direction: alternate;
 }
 
 .string5 {
-	animation: slide5 9s 0s linear infinite;
+	animation: slide 4s 4s linear infinite;
 	animation-direction: alternate;
 }
 
 .string6 {
-	animation: slide6 10s 0s linear infinite;
+	animation: slide 4s 5s linear infinite;
 	animation-direction: alternate;
 }
 
 .string7 {
-	animation: slide7 11s 0s linear infinite;
+	animation: slide 4s 6s linear infinite;
 	animation-direction: alternate;
 }
 .string8 {
-	animation: slide8	12s 0s linear infinite;
+	animation: slide 4s 7s linear infinite;
 	animation-direction: alternate;
 }
 
