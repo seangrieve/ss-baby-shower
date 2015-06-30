@@ -1,26 +1,40 @@
+body {
+	background-color: #b7ffd2;
+	font-family: 'Life Savers', cursive;
+	color: #2ecc6d;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+
 @keyframes slide {
 	from { transform: translateX(0); }
 	to { transform: translateX(330px); }
 }
+@keyframes spin {
+	from { transform: rotateY(0deg); }
+	to { transform: rotateY(180deg); }
+}
 
 #mobile {
-	height: 700px;
-	background:	white;
+	height: 300px;
 	/*animation: spin 15s 0s ease infinite; */
 }
 
 #wire {
-    background: #00ff66;
+    background: #0be964;
     width: 10px;
     position: relative;
     margin-left: 100px;
     height: 75px;
     margin: 0 auto;
-    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
 }
 
 #mobile-bar {
-    background: #00ff66;
+    background: #0be964;
     width: 390px;
     height: 20px;
     position: relative;
@@ -29,12 +43,16 @@
 }
 
 .mobile-string {
-    background: #00ff66;
+    background: #0be964;
     width: 5px;
     position: relative;
     display: inline;
     float: left;
     height: 50px;
+}
+
+.icon {
+	/*animation: spin 12s 0s ease infinite; */
 }
 
 .string1 {
@@ -88,7 +106,6 @@
 	width: 100px;
 	position: absolute;
 	bottom:	-100px;
-	background-image: url("../images/sharath.png");
 	background-size: 70px;
 	background-repeat: no-repeat;
 	left: -43px;
@@ -102,6 +119,7 @@
 .sharath {
 	background-image: url("../images/sharath.png");
 	left: -27px;
+	background-size: 60px;
 }
 
 .shwetha {
