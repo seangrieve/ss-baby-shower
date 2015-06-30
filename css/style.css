@@ -16,7 +16,7 @@ h1 {
 
 @-webkit-keyframes slide {
 	from { -webkit-transform: translateX(0); }
-	to { -webkit-transform: translateX(30vw); }
+	to { -webkit-transform: translateX(460px); }
 }
 
 #mobile {
