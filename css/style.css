@@ -11,7 +11,7 @@ h1 {
 
 @keyframes slide {
 	from { transform: translateX(0); }
-	to { transform: translateX(360px); }
+	to { transform: translateX(350px); }
 }
 @keyframes spin {
 	from { transform: rotateY(0deg); }
