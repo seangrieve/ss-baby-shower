@@ -64,45 +64,46 @@
 }
 
 .string1 {
-	height: 100px;
+	height: 50px;
 	margin-left: 0;
-	animation: slide1 10s 0s linear infinite;
+	animation: slide1 12s 0s linear infinite;
 	animation-direction: alternate;
 }
 
 .string2 {
-	height: 75px;
-	animation: slide2 9s 0s linear infinite;
+	height: 65px;
+	animation: slide2 11s 0s linear infinite;
 	animation-direction: alternate;
 }
 
 .string3 {
-	height: 100px;
-	animation: slide3 8s 0s linear infinite;
+	height: 65px;
+	animation: slide3 10s 0s linear infinite;
 	animation-direction: alternate;
 }
 
 .string4 {
-	animation: slide4 7s 0s linear infinite;
+	height: 75px;
+	animation: slide4 9s 0s linear infinite;
 	animation-direction: alternate;
 }
 
 .string5 {
-	animation: slide5 7s 0s linear infinite;
+	animation: slide5 9s 0s linear infinite;
 	animation-direction: alternate;
 }
 
 .string6 {
-	animation: slide6 8s 0s linear infinite;
+	animation: slide6 10s 0s linear infinite;
 	animation-direction: alternate;
 }
 
 .string7 {
-	animation: slide7 9s 0s linear infinite;
+	animation: slide7 11s 0s linear infinite;
 	animation-direction: alternate;
 }
 .string8 {
-	animation: slide8	10s 0s linear infinite;
+	animation: slide8	12s 0s linear infinite;
 	animation-direction: alternate;
 }
 
