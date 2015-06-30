@@ -11,7 +11,7 @@ h1 {
 
 @keyframes slide {
 	from { transform: translateX(0); }
-	to { transform: translateX(30vw); }
+	to { transform: translateX(460px); }
 }
 
 @-webkit-keyframes slide {
@@ -20,7 +20,7 @@ h1 {
 }
 
 #mobile {
-	height: 40vh;
+	height: 300px;
 	/*animation: spin 15s 0s ease infinite; */
 }
 
@@ -36,7 +36,7 @@ h1 {
 
 #mobile-bar {
     background: #2ecc6d;
-    width: 35vw;
+    width: 500px;
     height: 20px;
     position: relative;
     margin: 0 auto;
