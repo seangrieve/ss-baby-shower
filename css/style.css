@@ -3,23 +3,6 @@
 	to { transform: rotateY(360deg); }
 }
 
-@keyframes fall {
-	from { transform: translate(0, 0); }
-  to { transform: translate(0, 1200px); }
-}
-
-@keyframes dangle {
-	0% { transform: scaleY(1); }
-  50% { transform: scaleY(2) translateY(25%); }
-  100% { transform: scaleY(1); }
-}
-
-@keyframes reverse-dangle-scale {
-	0% { transform: scaleY(1); }
-  50% { transform: scaleY(0.5) translateY(-50%);}
-  100% { transform: scaleY(1); }
-}
-
 .fall-wrapper {
 	animation: fall 10s 0s linear infinite;
 }
@@ -37,12 +20,12 @@
 #mobile {
 	height: 700px;
 	background:	white;
-	/*animation: spin 15s 0s ease infinite; */
+	animation: spin 15s 0s ease infinite; 
 }
 
 #mobile-bar {
     background: black;
-    width: 700px;
+    width: 780px;
     height: 10px;
     position: relative;
     margin: 0 auto;
@@ -60,58 +43,32 @@
 
 .string1 {
 	height: 100px;
-	animation: dangle 4s 0s linear infinite;
+	margin-left: 0;
 }
 
 .string2 {
 	height: 75px;
-	animation: dangle 5s 0s ease infinite;
 }
 
 .string3 {
 	height: 100px;
-	animation: dangle 10s 0s ease-out infinite;
 }
 
 .string4 {
-	animation: dangle 4s 0s linear infinite;
 }
 
 .string5 {
-	animation: dangle 4s 0s ease-in-out infinite;
 }
 
 .string6 {
-	animation: dangle 7s 0s ease infinite;
 }
 
-.sean {
-	display: inline;
-	position: relative;
-	height: 100px;
-	width: 100px;
-	position: absolute;
-	bottom:	-100px;
-	background-image: url("../images/sean.gif");
-	animation: reverse-dangle-scale 4s 0s linear infinite;
-	left: -43px;
-	}
+.string7 {
+}
+.string8 {
+}
 
-	.binky {
-	display: inline;
-	position: relative;
-	height: 100px;
-	width: 100px;
-	position: absolute;
-	bottom:	-100px;
-	background-image: url("../images/binky.png");
-	background-size: 70px;
-	background-repeat: no-repeat;
-	animation: reverse-dangle-scale 4s 0s linear infinite;
-	left: -43px;
-	}
-
-	.sharath {
+.icon {
 	display: inline;
 	position: relative;
 	height: 100px;
@@ -121,6 +78,23 @@
 	background-image: url("../images/sharath.png");
 	background-size: 70px;
 	background-repeat: no-repeat;
-	animation: reverse-dangle-scale 5s 0s linear infinite;
 	left: -43px;
-	}
+}
+
+.binky {
+	background-image: url("../images/binky.png");
+	background-size: 70px;
+	left: -43px;
+}
+
+.sharath {
+	background-image: url("../images/sharath.png");
+	background-size: 70px;
+	left: -43px;
+}
+
+.shwetha {
+	background-image: url("../images/shwetha.png");
+	background-size: 70px;
+	left: -43px;
+}
