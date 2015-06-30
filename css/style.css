@@ -44,8 +44,17 @@
 	/*animation: spin 15s 0s ease infinite; */
 }
 
+#wire {
+    background: #00ff66;
+    width: 10px;
+    position: relative;
+    margin-left: 100px;
+    height: 50px;
+    margin: 0 auto;
+}
+
 #mobile-bar {
-    background: black;
+    background: #00ff66;
     width: 780px;
     height: 10px;
     position: relative;
@@ -53,14 +62,13 @@
 }
 
 .mobile-string {
-    background: black;
+    background: #00ff66;
     width: 10px;
     position: relative;
     display: inline;
     margin-left: 100px;
     float: left;
     height: 50px;
-    animation
 }
 
 .string1 {
