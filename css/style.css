@@ -96,3 +96,31 @@
 	animation: reverse-dangle-scale 4s 0s linear infinite;
 	left: -43px;
 	}
+
+	.binky {
+	display: inline;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom:	-100px;
+	background-image: url("../images/binky.png");
+	background-size: 70px;
+	background-repeat: no-repeat;
+	animation: reverse-dangle-scale 4s 0s linear infinite;
+	left: -43px;
+	}
+
+	.sharath {
+	display: inline;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom:	-100px;
+	background-image: url("../images/sharath.png");
+	background-size: 70px;
+	background-repeat: no-repeat;
+	animation: reverse-dangle-scale 5s 0s linear infinite;
+	left: -43px;
+	}
