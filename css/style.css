@@ -11,7 +11,7 @@ h1 {
 
 @keyframes slide {
 	from { transform: translateX(0); }
-	to { transform: translateX(350px); }
+	to { transform: translateX(348px); }
 }
 @keyframes spin {
 	from { transform: rotateY(0deg); }
@@ -39,7 +39,7 @@ h1 {
     height: 20px;
     position: relative;
     margin: 0 auto;
-    border-radius: 3px;
+    border-radius: 10px;
 
 }
 
