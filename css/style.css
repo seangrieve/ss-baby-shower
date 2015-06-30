@@ -1,7 +1,7 @@
 body {
 	background-color: #b7ffd2;
 	font-family: 'Life Savers', cursive;
-	color: #2ecc6d;
+	color: #00ac6b;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
 }
 
 #wire {
-    background: #0be964;
+    background: #2ecc6d;
     width: 10px;
     position: relative;
     margin-left: 100px;
@@ -34,12 +34,13 @@ h1 {
 }
 
 #mobile-bar {
-    background: #0be964;
+    background: #2ecc6d;
     width: 390px;
     height: 20px;
     position: relative;
     margin: 0 auto;
     border-radius: 3px;
+
 }
 
 .mobile-string {
@@ -49,6 +50,7 @@ h1 {
     display: inline;
     float: left;
     height: 50px;
+    z-index: -1;
 }
 
 .string1 {
@@ -110,12 +112,14 @@ h1 {
 .giraffe {
 	background-image: url("../images/giraffe.png");
 	left: -23px;
+	bottom: -89px;
 }
 
 .sharath {
 	background-image: url("../images/sharath.png");
 	left: -27px;
 	background-size: 60px;
+	bottom: -97px;
 }
 
 .shwetha {
@@ -126,11 +130,13 @@ h1 {
 .elephant {
 	background-image: url("../images/elephant.png");
 	left: -40px;
+	bottom: -89px;
 }
 
 .tiger {
 	background-image: url("../images/tiger.png");
 	left: -23px;
+	bottom: -95px;
 }
 
 .monkey {
@@ -141,9 +147,11 @@ h1 {
 .bear {
 	background-image: url("../images/bear.png");
 	left: -43px;
+	bottom: -95px;
 }
 
 .hippo {
 	background-image: url("../images/hippo.png");
 	left: -23px;
+	bottom: -89px;
 }
