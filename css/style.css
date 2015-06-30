@@ -121,27 +121,32 @@
 
 .giraffe {
 	background-image: url("../images/giraffe.png");
+	left: -23px;
 }
 
 .sharath {
 	background-image: url("../images/sharath.png");
+	left: -27px;
 }
 
 .shwetha {
 	background-image: url("../images/shwetha.png");
+	left: -23px;
 }
 
 .elephant {
 	background-image: url("../images/elephant.png");
+	left: -40px;
 }
 
 .tiger {
 	background-image: url("../images/tiger.png");
+	left: -23px;
 }
 
 .monkey {
 	background-image: url("../images/monkey.png");
-	left: -43px;
+	left: -33px;
 }
 
 .bear {
@@ -151,5 +156,5 @@
 
 .hippo {
 	background-image: url("../images/hippo.png");
-	left: -43px;
+	left: -23px;
 }
