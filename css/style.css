@@ -1,26 +1,47 @@
-@keyframes spin {
-	from { transform: rotateY(0deg); }
-	to { transform: rotateY(360deg); }
+@keyframes slide1 {
+	from { transform: translateX(0); }
+	to { transform: translateX(770px); }
 }
 
-.fall-wrapper {
-	animation: fall 10s 0s linear infinite;
+@keyframes slide2 {
+	from { transform: translateX(0); }
+	to { transform: translateX(660px); }
 }
-.mobile-img {
-	background-image: url("../images/mobile.jpg");
-	height: 146px;
-	width: 170px;
-	animation: spin 4s 0s linear infinite;
-	/*animation-name: spin;
-	animation-duration: 4s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;*/
+
+@keyframes slide3 {
+	from { transform: translateX(0); }
+	to { transform: translateX(550px); }
+}
+
+@keyframes slide4 {
+	from { transform: translateX(0); }
+	to { transform: translateX(440px); }
+}
+
+@keyframes slide5 {
+	from { transform: translateX(0px); }
+	to { transform: translateX(-440px); }
+}
+
+@keyframes slide6 {
+	from { transform: translateX(0); }
+	to { transform: translateX(-550px); }
+}
+
+@keyframes slide7 {
+	from { transform: translateX(0); }
+	to { transform: translateX(-660px); }
+}
+
+@keyframes slide8 {
+	from { transform: translateX(0); }
+	to { transform: translateX(-770px); }
 }
 
 #mobile {
 	height: 700px;
 	background:	white;
-	animation: spin 15s 0s ease infinite; 
+	/*animation: spin 15s 0s ease infinite; */
 }
 
 #mobile-bar {
@@ -39,33 +60,50 @@
     margin-left: 100px;
     float: left;
     height: 50px;
+    animation
 }
 
 .string1 {
 	height: 100px;
 	margin-left: 0;
+	animation: slide1 10s 0s linear infinite;
+	animation-direction: alternate;
 }
 
 .string2 {
 	height: 75px;
+	animation: slide2 9s 0s linear infinite;
+	animation-direction: alternate;
 }
 
 .string3 {
 	height: 100px;
+	animation: slide3 8s 0s linear infinite;
+	animation-direction: alternate;
 }
 
 .string4 {
+	animation: slide4 7s 0s linear infinite;
+	animation-direction: alternate;
 }
 
 .string5 {
+	animation: slide5 7s 0s linear infinite;
+	animation-direction: alternate;
 }
 
 .string6 {
+	animation: slide6 8s 0s linear infinite;
+	animation-direction: alternate;
 }
 
 .string7 {
+	animation: slide7 9s 0s linear infinite;
+	animation-direction: alternate;
 }
 .string8 {
+	animation: slide8	10s 0s linear infinite;
+	animation-direction: alternate;
 }
 
 .icon {
